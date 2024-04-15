@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+    <style>
+        /* .linkedin{
+            color: blue;
+            font-size: 40px;
+        } */
+        div ul{
+            width: 100%;
+            list-style-type: none;
+            background-color: rgb(102, 102, 102);
+        }
+        div ul li{
+            padding: 15px;
+            display: inline-block;
+            width: 100px;
+            margin-left: -4px;
+        }
+       
+        div ul li:hover{
+            background-color: red;
+            transition:0.5s ;
+        }
+       div ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+
+       i{
+        padding-right: 10px;
+        padding-left: 10px;
+       }
+
+
+    
+      #dp-news ul{
+        position: absolute;
+        z-index: 1;
+        display: none;
+        width: 110px;
+        padding: 12px;
+        margin: 15px -16px;
+      }
+      #dp-news ul li{
+        width: 90px;
+        border-radius: 20px;
+      }
+.li-news:hover #dp-news ul{
+    display: block;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- <p style="border: 1px solid red; display: inline;">salam</p>
+    
+    <p style="display: inline; border: 1px solid green;">salam</p> -->
+
+
+    <!-- <i class="linkedin fa-brands fa-linkedin"></i>
+    <a style="text-decoration: none;" href="#">Anasayfa</a> -->
+
+
+
+
+    <div>
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li class="li-news"><a href="#"><i class="fa-solid fa-envelope"></i> News</a>
+                <div id="dp-news">
+                    <ul >
+                    <li><a href="#">News-1</a></li>
+                    <li><a href="#">News-2</a></li>
+                    <li><a href="#">News-3</a></li>
+                    <li><a href="#">News-4</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+            <li><a href="#"><i class="fa-solid fa-table"></i> About</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
